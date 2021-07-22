@@ -1,0 +1,28 @@
+{
+  "name": "urban-palm-tree-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TKais/Urban-Palm-Tree.git"
+  },
+  "keywords": [
+    "React",
+    "Apollo",
+    "Next.js",
+    "GraphQL"
+  ],
+  "author": "Tiffany T Kaiser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TKais/Urban-Palm-Tree/issues"
+  },
+  "homepage": "https://github.com/TKais/Urban-Palm-Tree#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
