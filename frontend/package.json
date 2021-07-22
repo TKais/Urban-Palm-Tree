@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "next start -p 8000",
+    "dev": "next -p 8000",
+    "build": "next build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +26,31 @@
   },
   "homepage": "https://github.com/TKais/Urban-Palm-Tree#readme",
   "dependencies": {
-    "react": "^17.0.2"
+    "@apollo/client": "^3.3.21",
+    "@apollo/link-error": "^2.0.0-beta.3",
+    "@apollo/react-ssr": "^4.0.0",
+    "@stripe/react-stripe-js": "^1.4.1",
+    "@stripe/stripe-js": "^1.16.0",
+    "apollo-upload-client": "^16.0.0",
+    "next": "^11.0.1",
+    "next-with-apollo": "^5.2.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-transition-group": "^4.4.2",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.0.6",
+    "babel-plugin-styled-components": "^1.13.2",
+    "eslint": "^7.31.0",
+    "jest": "^27.0.6",
+    "react-test-renderer": "^17.0.2"
   }
 }
