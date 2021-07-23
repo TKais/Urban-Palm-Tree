@@ -1,5 +1,8 @@
+import Page from '../components/Page';
+
 export default function ProductsPage() {
-  return <div>
-    <p>Hello</p>
-  </div>
+  return <Page>
+    <p>Hello I'm the products page</p>
+    <p>This is a child of the products page</p>
+  </Page>
 }
