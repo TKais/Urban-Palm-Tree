@@ -3,9 +3,36 @@ import styled, { createGlobalStyle } from 'styled-components';
 export const GlobalStyles = createGlobalStyle`
   :root {
     --green: #65B8BF;
+    --darkgreen: #74b560;
     --hotpink: #F96CFF;
     --maxWidth: 1200px;
+    --fontFamily: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
   }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+    font-family: var(--fontFamily);
+    padding: 0;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+    color: var(--green);
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  button {
+    font-family: var(--fontFamily);
+  }
+`;
+
+export const InnerStyles = styled.div`
+  max-width: var(--maxWidth);
+  margin: 0 auto;
+  padding: 2rem;
 `;
 
 export const LogoStyles = styled.h1`
