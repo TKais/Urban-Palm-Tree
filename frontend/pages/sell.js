@@ -1,8 +1,6 @@
-import Page from '../components/Page';
-
 export default function SellPage() {
-  return <Page>
+  return <>
     <p>This is a child of the sell page</p>
     <p>This is a child of the sell page</p>
-  </Page>
+  </>
 }

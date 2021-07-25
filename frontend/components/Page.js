@@ -10,7 +10,7 @@ function Page(props) {
 }
 
 Page.propTypes = {
-  children: PropTypes.arrayOf(PropTypes.node)
+  children: PropTypes.any
 }
 
 export default Page;
