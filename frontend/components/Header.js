@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import Nav from './Nav';
-import { LogoStyles } from './styles/Main';
+import { LogoStyles, HeaderStyles } from './styles/Main';
 
 function Header(props) {
   return (
-    <header>
+    <HeaderStyles>
       <div className="bar">
         <LogoStyles>
           <Link href="/">Urban Palm Tree</Link>
@@ -14,7 +14,7 @@ function Header(props) {
         <p>Search placeholder</p>
       </div>
       <Nav />
-    </header>
+    </HeaderStyles>
   );
 }
 
