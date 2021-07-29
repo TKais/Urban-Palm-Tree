@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "keystone-next"
   },
   "repository": {
     "type": "git",
@@ -21,16 +21,17 @@
   },
   "homepage": "https://github.com/TKais/Urban-Palm-Tree#readme",
   "dependencies": {
-    "@keystone-next/admin-ui": "^15.0.0",
-    "@keystone-next/auth": "^30.0.0",
-    "@keystone-next/cloudinary": "^6.0.5",
-    "@keystone-next/fields": "^13.0.0",
-    "@keystone-next/keystone": "^23.0.0",
-    "@keystone-next/types": "^23.0.0",
-    "@keystonejs/server-side-graphql-client": "^2.1.2",
+    "@keystone-next/admin-ui": "^8.0.1",
+    "@keystone-next/auth": "^14.0.0",
+    "@keystone-next/cloudinary": "^2.0.9",
+    "@keystone-next/fields": "^4.1.1",
+    "@keystone-next/keystone": "^9.3.0",
+    "@keystone-next/types": "^12.0.0",
+    "@keystonejs/server-side-graphql-client": "^1.1.2",
     "@types/nodemailer": "^6.4.4",
     "dotenv": "^10.0.0",
-    "nodemailer": "^6.6.3"
+    "nodemailer": "^6.6.3",
+    "stripe": "^8.165.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.28.5",
