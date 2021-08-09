@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Nav from './Nav';
+import Searchbox from './Searchbox';
 import { LogoStyles, HeaderStyles } from './styles/Main';
 
 function Header(props) {
@@ -14,6 +15,7 @@ function Header(props) {
         <p>Search placeholder</p>
       </div>
       <Nav />
+      <Searchbox />
     </HeaderStyles>
   );
 }

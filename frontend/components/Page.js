@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types';
 import Header from './Header';
+import Tooltip from './Tooltip';
+import Form from './Form';
 import { GlobalStyles, InnerStyles } from './styles/Main';
 
 function Page(props) {
@@ -9,6 +11,8 @@ function Page(props) {
       <Header />
       <InnerStyles>
         {props.children}
+        <Form />
+        <Tooltip type="button" triggerContent="Info" />
       </InnerStyles>
     </div>
   )
